@@ -18,7 +18,7 @@
                 <div class="imgCard">
                   <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}" />
                 </div>
-                <h4>{{ $comic['title'] }}</h4>
+                <h4>{{$comic['title']}}</h4>
               </div></li>
             @endforeach
       </ul>

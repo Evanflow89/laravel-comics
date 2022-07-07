@@ -1,0 +1,54 @@
+.dcCard img {
+    width: 100%;
+}
+
+.imgCard {
+    max-height: 11.25rem;
+    overflow: hidden;
+}
+
+main {
+    background-color: var(--mainpage-color);
+
+    .currentSeries {
+        display: flex;
+        background-color: var(--secondary-color);
+        margin-top: -5rem;
+        height: 3.125rem;
+        width: 15.625rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .currentSeries h2 {
+        padding: 0;
+    }
+
+    .container.middle {
+        padding-bottom: 3.125rem;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.25rem;
+    }
+
+    ul li {
+        width: calc(100% / 6 - 1.25rem);
+    }
+
+    .container.bottom {
+        justify-content: center;
+    }
+
+    .container.bottom button {
+        background-color: var(--secondary-color);
+        color: white;
+        text-transform: uppercase;
+        padding: 0.625rem 3.75rem;
+        font-weight: 600;
+        margin-bottom: 1.25rem;
+    }
+}
