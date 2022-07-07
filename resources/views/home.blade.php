@@ -5,5 +5,26 @@
 @endsection
 
 @section('page-content')
-    Il contenuto
+<main>
+    <div class="container top">
+      <div class="currentSeries">
+        <h2>current Series</h2>
+      </div>
+    </div>
+    <div class="container middle">
+      <ul class="dcCards">
+        @foreach ($comics as $comic)
+            <li><div class="dcCard">
+                <div class="imgCard">
+                  <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}" />
+                </div>
+                <h4>{{ $comic['title'] }}</h4>
+              </div></li>
+            @endforeach
+      </ul>
+    </div>
+    <div class="container bottom">
+      <button>Load More</button>
+    </div>
+  </main>
 @endsection
