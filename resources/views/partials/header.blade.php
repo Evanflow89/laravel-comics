@@ -6,7 +6,7 @@
       <nav class="mainNav">
         <ul>
             @foreach ($linkhead as $link)
-            <li>{{$link['text']}}</li>
+            <li><a href="{{$link['url']}}">{{$link['text']}}</a></li>
             @endforeach
          
           
