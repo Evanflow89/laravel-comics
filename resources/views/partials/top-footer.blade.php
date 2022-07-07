@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="container topFooter">
       <div class="card">
         <div class="img_card">
           <img

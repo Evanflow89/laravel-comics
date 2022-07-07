@@ -1,3 +1,4 @@
-<footer>
-    @include('partials.top-footer')
-</footer>
+
+    @include('partials.top-footer');
+    @include('partials.middle-footer');
+    @include('partials.bottom-footer');

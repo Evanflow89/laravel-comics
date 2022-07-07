@@ -1,0 +1,28 @@
+.footerBottom {
+    background-color: var(--primary-color);
+}
+
+.container.foot {
+    height: 7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_foot {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.signUp {
+    background-color: var(--primary-color);
+    color: white;
+    border: 0.125rem solid var(--secondary-color);
+    text-transform: uppercase;
+    padding: 0.625rem;
+    font-size: 1rem;
+}
+
+.signUp:hover {
+    background-color: var(--secondary-color);
+}
