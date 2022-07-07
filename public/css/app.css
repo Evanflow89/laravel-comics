@@ -38,3 +38,57 @@ h4 {
   font-weight: 400;
 }
 
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+header .container {
+  height: 7.75rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .imgLogo img {
+  max-width: 5.25rem;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+}
+
+header .active a,
+header a:hover {
+  color: var(--secondary-color);
+}
+
+header .active a:after,
+header a:hover:after {
+  position: absolute;
+  content: "";
+  border-bottom: 0.375rem solid var(--secondary-color);
+  width: 100%;
+  bottom: -3.25rem;
+  left: 0;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 73.75rem;
+  display: flex;
+}
+

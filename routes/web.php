@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $linkhead = config('linkhead');
+    return view('home', compact('linkhead'));
 });

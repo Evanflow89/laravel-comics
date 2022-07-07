@@ -5,9 +5,11 @@
       </div>
       <nav class="mainNav">
         <ul>
-          <li
-      
-          </li>
+            @foreach ($linkhead as $link)
+            <li>{{$link['text']}}</li>
+            @endforeach
+         
+          
         </ul>
       </nav>
     </div>
