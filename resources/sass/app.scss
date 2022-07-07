@@ -1,4 +1,5 @@
 //
-body {
-    background-color: red;
-}
+@import 'partials/variables';
+@import 'partials/reset';
+@import 'partials/typography';
+@import 'partials/header';
