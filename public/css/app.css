@@ -105,3 +105,28 @@ main .jumbo_img img {
      object-position: center top;
 }
 
+footer {
+  padding: 1.8rem;
+  background-color: var(--secondary-color);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+footer .card img {
+  max-width: 3rem;
+  width: 100%;
+}
+
