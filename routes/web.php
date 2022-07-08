@@ -23,6 +23,6 @@ Route::get('/', function () {
 
 Route::get('comic/{id}', function ($id) {
     $comics = config('comics');
-    dd($comics['id']);
+    dd($comics[$id]);
 
 });

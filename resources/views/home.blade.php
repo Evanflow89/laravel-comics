@@ -13,7 +13,7 @@
     </div>
     <div class="container middle">
       <ul class="dcCards">
-        @foreach ($comics as $comic)
+        @foreach ($comics as $index => $comic)
             <li><a href=""><div class="dcCard">
                 <div class="imgCard">
                   <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}" />
