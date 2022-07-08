@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;
-
-400;700&display=swap);/*------------------------------
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap);/*------------------------------
         COLORS
     -------------------------------*/
 :root {
@@ -43,24 +41,20 @@ header {
   display: flex;
   flex-direction: row;
 }
-
 header .container {
   height: 7.75rem;
   justify-content: space-between;
   align-items: center;
 }
-
 header .imgLogo img {
   max-width: 5.25rem;
   width: 100%;
 }
-
 header nav ul {
   display: flex;
   gap: 1.5rem;
   list-style: none;
 }
-
 header nav ul li a {
   color: var(--primary-color);
   text-decoration: none;
@@ -69,12 +63,10 @@ header nav ul li a {
   font-size: 1rem;
   position: relative;
 }
-
 header .active a,
 header a:hover {
   color: var(--secondary-color);
 }
-
 header .active a:after,
 header a:hover:after {
   position: absolute;
@@ -95,7 +87,6 @@ header a:hover:after {
 main .jumbo_img {
   margin-bottom: 3.125rem;
 }
-
 main .jumbo_img img {
   width: 100%;
   max-height: 21rem;
@@ -105,28 +96,130 @@ main .jumbo_img img {
      object-position: center top;
 }
 
-footer {
+.topFooter {
   padding: 1.8rem;
   background-color: var(--secondary-color);
 }
-
-footer .container {
+.topFooter .container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: white;
   text-transform: uppercase;
 }
-
-footer .card {
+.topFooter .card {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.9rem;
 }
-
-footer .card img {
+.topFooter .card img {
   max-width: 3rem;
   width: 100%;
 }
 
+.middleFooter {
+  background-color: black;
+}
+.middleFooter .col-left {
+  width: 16.6666666667%;
+}
+.middleFooter .col-right {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+.middleFooter ul {
+  list-style: none;
+}
+.middleFooter ul li a {
+  color: var(--footer-color);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+.middleFooter ul li a:hover {
+  color: var(--secondary-color);
+}
+.middleFooter .col-right img {
+  width: 31rem;
+  -o-object-position: 0 -6.25rem;
+     object-position: 0 -6.25rem;
+}
+
+.footerBottom {
+  background-color: var(--primary-color);
+}
+
+.container.foot {
+  height: 7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social_foot {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.signUp {
+  background-color: var(--primary-color);
+  color: white;
+  border: 0.125rem solid var(--secondary-color);
+  text-transform: uppercase;
+  padding: 0.625rem;
+  font-size: 1rem;
+}
+
+.signUp:hover {
+  background-color: var(--secondary-color);
+}
+
+.dcCard img {
+  width: 100%;
+}
+
+.imgCard {
+  max-height: 11.25rem;
+  overflow: hidden;
+}
+
+main {
+  background-color: var(--mainpage-color);
+}
+main .currentSeries {
+  display: flex;
+  background-color: var(--secondary-color);
+  margin-top: -5rem;
+  height: 3.125rem;
+  width: 15.625rem;
+  justify-content: center;
+  align-items: center;
+}
+main .currentSeries h2 {
+  padding: 0;
+}
+main .container.middle {
+  padding-bottom: 3.125rem;
+}
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+main ul li {
+  width: calc(16.6666666667% - 1.25rem);
+}
+main .container.bottom {
+  justify-content: center;
+}
+main .container.bottom button {
+  background-color: var(--secondary-color);
+  color: white;
+  text-transform: uppercase;
+  padding: 0.625rem 3.75rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
