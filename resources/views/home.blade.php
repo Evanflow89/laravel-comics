@@ -14,12 +14,12 @@
     <div class="container middle">
       <ul class="dcCards">
         @foreach ($comics as $comic)
-            <li><div class="dcCard">
+            <li><a href=""><div class="dcCard">
                 <div class="imgCard">
                   <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}" />
                 </div>
                 <h4>{{$comic['title']}}</h4>
-              </div></li>
+              </div></a></li>
             @endforeach
       </ul>
     </div>

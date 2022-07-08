@@ -19,3 +19,10 @@ Route::get('/', function () {
     return view('home', compact('linkhead'), compact('comics'));
     
 });
+
+
+Route::get('comic/{id}', function ($id) {
+    $comics = config('comics');
+    dd($comics['id']);
+
+});
