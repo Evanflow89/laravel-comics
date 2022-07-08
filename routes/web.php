@@ -23,6 +23,8 @@ Route::get('/', function () {
 
 Route::get('comic/{id}', function ($id) {
     $comics = config('comics');
-    dd($comics[$id]);
-
-});
+    if ($id >= count($comics)) {
+        abort('404');
+    }
+    $comic = $comics[$id];
+})->where('id', '[0-9]+');
