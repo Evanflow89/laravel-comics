@@ -7,7 +7,12 @@
     overflow: hidden;
 }
 
+body {
+    background-color: var(--mainpage-color);
+}
+
 main {
+    margin-top: -1.3rem;
     background-color: var(--mainpage-color);
 
     .currentSeries {

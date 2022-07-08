@@ -24,12 +24,11 @@
 }
 
 .middleFooter {
-    // background-image: url("../img/footer-bg.jpg");
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // height: 21.875rem;
-    // overflow: hidden;
-    background-color: black;
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21.875rem;
+    overflow: hidden;
 
     .col-left {
         width: calc(50% / 3);

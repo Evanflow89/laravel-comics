@@ -119,7 +119,11 @@ main .jumbo_img img {
 }
 
 .middleFooter {
-  background-color: black;
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 21.875rem;
+  overflow: hidden;
 }
 .middleFooter .col-left {
   width: 16.6666666667%;
@@ -185,7 +189,12 @@ main .jumbo_img img {
   overflow: hidden;
 }
 
+body {
+  background-color: var(--mainpage-color);
+}
+
 main {
+  margin-top: -1.3rem;
   background-color: var(--mainpage-color);
 }
 main .currentSeries {
