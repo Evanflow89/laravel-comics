@@ -22,9 +22,12 @@ Route::get('/', function () {
 
 
 Route::get('comic/{id}', function ($id) {
+    $linkhead = config('linkhead');
     $comics = config('comics');
     if ($id >= count($comics)) {
         abort('404');
     }
     $comic = $comics[$id];
+
+    return view('comic', compact('comic'), compact('linkhead'));
 })->where('id', '[0-9]+');

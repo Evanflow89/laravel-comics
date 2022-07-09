@@ -217,6 +217,7 @@ main ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.25rem;
+  list-style: none;
 }
 main ul li {
   width: calc(16.6666666667% - 1.25rem);
