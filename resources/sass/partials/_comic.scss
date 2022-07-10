@@ -32,6 +32,30 @@
             h1 {
                 text-transform: uppercase;
             }
+
+            .available {
+                height: 3rem;
+                background-color: var(--available-color);
+                border-bottom: 1px solid black;
+                display: flex;
+
+                .col-left {
+                    width: 70%;
+                    border-right: 1px solid black;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 20px;
+                }
+
+                .col-right {
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
         }
 
         .col-right {

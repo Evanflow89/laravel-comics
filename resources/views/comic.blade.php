@@ -14,7 +14,15 @@
 <div class="container">
     <div class="col-left">
 <h1>{{$comic['title']}}</h1>
-
+<div class="row available">
+    <div class="col-left">
+        <span>U.S. Price: {{$comic['price']}} </span>
+        <span>AVAILABLE</span>
+    </div>
+    <div class="col-right">
+        <span>Check Availability ▾</span>
+    </div>
+</div>
 <p>{{$comic['description']}}</p>
 </div>
 <div class="col-right">

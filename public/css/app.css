@@ -6,6 +6,8 @@
   --secondary-color: #0282f9;
   --mainpage-color: #1c1c1c;
   --footer-color: #959595;
+  --available-color: #55ba59;
+  --available-text: #bafd9c;
 }
 
 * {
@@ -263,6 +265,27 @@ main .container.bottom button {
 }
 .comicPage .container .col-left h1 {
   text-transform: uppercase;
+}
+.comicPage .container .col-left .available {
+  height: 3rem;
+  background-color: var(--available-color);
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.comicPage .container .col-left .available .col-left {
+  width: 70%;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.comicPage .container .col-left .available .col-right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .comicPage .container .col-right {
   width: 30%;
