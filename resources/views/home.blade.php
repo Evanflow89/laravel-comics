@@ -14,12 +14,14 @@
     <div class="container middle">
       <ul class="dcCards">
         @foreach ($comics as $index => $comic)
-            <li><a href=""><div class="dcCard">
+            <li>
+              <a href="{{route('comic',['id'=> $index])}}">
+                <div class="dcCard">
                 <div class="imgCard">
                   <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}" />
                 </div>
                 <h4>{{$comic['title']}}</h4>
-              </div></a></li>
+              </div></li>
             @endforeach
       </ul>
     </div>

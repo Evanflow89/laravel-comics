@@ -19,7 +19,7 @@ Route::get('/', function () {
 
     return view('home', compact('linkhead'), compact('comics'));
     
-});
+})->name('home');
 
 
 Route::get('comic/{id}', function ($id) {
@@ -31,4 +31,4 @@ Route::get('comic/{id}', function ($id) {
     $comic = $comics[$id];
 
     return view('comic', compact('comic'), compact('linkhead'));
-})->where('id', '[0-9]+');
+})->where('id', '[0-9]+')->name('comic');
