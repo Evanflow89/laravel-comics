@@ -98,4 +98,23 @@
 
         }
     }
+
+    // ################## INIZIO TABELLA #################
+    .table {
+        display: flex;
+
+        .col-left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                color: black;
+            }
+        }
+
+        .col-right {
+            width: 50%;
+        }
+    }
 }

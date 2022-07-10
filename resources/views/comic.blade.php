@@ -30,6 +30,27 @@
     <img src="{{asset('img/superman.jpg')}}" alt="Advertise"> 
 </div>
 </div>
+{{-- ############### INIZIO TABELLA ################ --}}
+<div class="container table">
+    <div class="col-left">
+        <h2>Talent</h2>
+        <div class="row">
+            <div class="col-left">
+                <span>Art By:</span>
+                <p></p>
+            </div>
+            <div class="col-right"></div>
+        </div>
+        <div class="row">
+            <div class="col-left">
+                <span>Written By:</span>
+                <p></p>
+            </div>
+            <div class="col-right"></div>
+        </div>
+    </div>
+    <div class="col-right"></div>
+</div>
 </section>
 @endsection
 
