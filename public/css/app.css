@@ -238,6 +238,21 @@ main .container.bottom button {
   width: 100%;
   height: 100%;
 }
+.comicPage .containerXl {
+  width: 100%;
+  height: 60px;
+  background-color: var(--secondary-color);
+  margin-top: -2.1rem;
+  margin-bottom: 60px;
+}
+.comicPage .containerXl .container {
+  position: relative;
+}
+.comicPage .containerXl .comicThumb {
+  width: 9.375rem;
+  position: absolute;
+  top: -11.25rem;
+}
 .comicPage .container {
   display: flex;
 }
@@ -253,6 +268,11 @@ main .container.bottom button {
   width: 30%;
   display: flex;
   flex-direction: column;
+}
+.comicPage .container .col-right h4 {
+  text-align: right;
+  color: var(--primary-color);
+  font-weight: 600;
 }
 .comicPage .container .col-right img {
   width: 100%;
