@@ -37,16 +37,28 @@
         <div class="row">
             <div class="col-left">
                 <span>Art By:</span>
-                <p></p>
+                
             </div>
-            <div class="col-right"></div>
+            <div class="col-right">
+                <p>
+                    @foreach ($comic['artists'] as $artist)
+                        {{$artist}}
+                    @endforeach
+                </p>
+            </div>
         </div>
         <div class="row">
             <div class="col-left">
                 <span>Written By:</span>
-                <p></p>
+                
             </div>
-            <div class="col-right"></div>
+            <div class="col-right">
+                <p>
+                    @foreach ($comic['writers'] as $writer)
+                    {{$writer}}
+                @endforeach
+                </p>
+            </div>
         </div>
     </div>
     <div class="col-right"></div>

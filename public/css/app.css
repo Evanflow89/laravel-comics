@@ -239,6 +239,7 @@ main .container.bottom button {
   background-color: white;
   width: 100%;
   height: 100%;
+  margin-bottom: 5rem;
 }
 .comicPage .containerXl {
   width: 100%;
@@ -328,6 +329,10 @@ main .container.bottom button {
 }
 .comicPage .table .col-left h2 {
   color: black;
+}
+.comicPage .table .col-left .row {
+  display: flex;
+  padding-bottom: 20px;
 }
 .comicPage .table .col-right {
   width: 50%;
